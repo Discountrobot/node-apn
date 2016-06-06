@@ -38,7 +38,8 @@ const Endpoint = require("./lib/protocol/endpoint")({
 });
 
 const EndpointManager = require("./lib/protocol/endpointManager")({
-	Endpoint,
+	debug,
+	Endpoint
 });
 
 const Connection = require("./lib/connection")({
