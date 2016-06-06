@@ -32,6 +32,7 @@ const protocol = {
 };
 
 const Endpoint = require("./lib/protocol/endpoint")({
+	debug,
 	tls,
 	protocol,
 });
